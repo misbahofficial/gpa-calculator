@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GPA Calculator - Math Honors</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>GPA Calculator - Math Honors</h1>
+  
+  <form id="gpaForm">
+    <div class="form-group">
+      <label for="course01">Course 01:</label>
+      <input type="number" id="course01" min="0" max="4" step="0.01" required>
+    </div>
+    <div class="form-group">
+      <label for="course02">Course 02:</label>
+      <input type="number" id="course02" min="0" max="4" step="0.01" required>
+    </div>
+    <div class="form-group">
+      <label for="course03">Course 03:</label>
+      <input type="number" id="course03" min="0" max="4" step="0.01" required>
+    </div>
+    <div class="form-group">
+      <label for="course04">Course 04:</label>
+      <input type="number" id="course04" min="0" max="4" step="0.01" required>
+    </div>
+    <div class="form-group">
+      <label for="course05">Course 05:</label>
+      <input type="number" id="course05" min="0" max="4" step="0.01" required>
+    </div>
+    <div class="form-group">
+      <label for="course06">Course 06:</label>
+      <input type="number" id="course06" min="0" max="4" step="0.01" required>
+    </div>
+    <div class="form-group">
+      <label for="course07">Course 07:</label>
+      <input type="number" id="course07" min="0" max="4" step="0.01" required>
+    </div>
+    <div class="form-group">
+      <label for="course08">Course 08:</label>
+      <input type="number" id="course08" min="0" max="4" step="0.01" required>
+    </div>
+    <!-- Repeat the above form-group code for all courses -->
+    
+    <button type="submit">Calculate GPA</button>
+  </form>
+  
+  <div id="result" class="hidden">
+    <h2>Your GPA</h2>
+    <p id="gpa">0.00</p>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
